@@ -7,4 +7,8 @@
     <RootNamespace>IBAS_kantine</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Azure.Data.Tables" Version="12.9.1" />
+  </ItemGroup>
+
 </Project>

@@ -1,6 +1,9 @@
-public class MenuItem
+namespace IBAS_kantine.Models
 {
-   public string Day { get; set; }
-   public string ColdDish { get; set; }
-   public string Hotdish { get; set; }
+    public class MenuItems
+    {
+        public string Day { get; set; }
+        public string KoldRet { get; set; }
+        public string VarmRet { get; set; }
+    }
 }
