@@ -5,6 +5,61 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Kantinens menu for uge 45</h1>
 </div>
+
+<h1>@ViewData["Title"]</h1>
+
+<style>
+    .styled-table {
+        border: 2px solid black;
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .styled-table th, .styled-table td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+    }
+    .styled-table th {
+        background-color: #f2f2f2;
+    }
+</style>
+
+<table class="styled-table">
+    <thead>
+        <tr>
+            <th>Dag</th>
+            <th>Varm Ret</th>
+            <th>Kold Ret</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Man</td>
+            <td>Kylling & pasta</td>
+            <td>Smørebrød</td>
+        </tr>
+        <tr>
+            <td>Tirs</td>
+            <td>Græskarsuppe</td>
+            <td>Pastasalat</td>
+        </tr>
+        <tr>
+            <td>Ons</td>
+            <td>Lasagne</td>
+            <td>Kartoffelsalat</td>
+        </tr>
+        <tr>
+            <td>Tor</td>
+            <td>Fiskefrikadeller</td>
+            <td>Rejesalat</td>
+        </tr>
+        <tr>
+            <td>Fre</td>
+            <td>Pizza</td>
+            <td>Røget laks</td>
+        </tr>
+    </tbody>
+</table>
